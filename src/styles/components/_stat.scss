@@ -1,0 +1,38 @@
+.stat-content{
+    padding-bottom: 100px;
+    .blue-line-container{
+        position: relative;
+        top: 210px;
+        display: flex;
+        justify-content: center;
+        z-index: 0;
+        .blue-line{
+            height: 8px;
+            width: 500px;
+            background-color: var(--cyan);
+        }
+    }
+
+    .card{
+        height: 440px;
+        padding: 20px 180px;
+        display: flex;
+        justify-content: space-between;
+
+        #statCard-1{
+            z-index: 1;
+        }
+
+        #statCard-2{
+            display: flex;
+            align-items: center;
+            z-index: 1;
+        }
+
+        #statCard-3{
+            display: flex;
+            align-items: flex-end;
+            z-index: 1;
+        }
+    }
+}

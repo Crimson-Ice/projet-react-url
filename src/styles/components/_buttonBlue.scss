@@ -1,0 +1,11 @@
+.button-blue{
+    color: #fff;
+    background-color: var(--cyan);
+    border: 0;
+    font-weight: 700;
+
+    &:hover{
+        background-color: var(--button-hover);
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,55 @@
+.footer{
+    height: 100%;
+    background-color: var(--very-dark-violet);
+
+    .footer-content{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 65px 180px;
+
+        h1{
+            color: white;
+            font-size: 35px;
+            padding-right: 225px
+        }
+
+        .footer-nav{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            color: darkgray;
+
+            ul{
+                padding: 0 40px;
+            }
+
+            li{
+                list-style: none;
+                padding: 5px 0;
+                &:first-child{
+                    color: white;
+                    padding: 15px 0;
+                    font-weight: bold;
+                }
+                &:not(:first-child):hover{
+                    color: var(--cyan);
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .logo-social-NetWork{
+            padding: 10px 0 10px 50px;
+
+            img{
+                padding: 10px;
+            }
+
+            .image:hover {
+                filter: brightness(0) saturate(100%) invert(90%) sepia(94%) saturate(4123%) hue-rotate(125deg) brightness(86%) contrast(86%);
+                cursor: pointer;
+            }
+        }
+    }
+}

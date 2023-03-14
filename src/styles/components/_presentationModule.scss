@@ -1,0 +1,28 @@
+.presentation-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 180px 150px 180px;
+
+    .presentation{
+        min-width: 600px;
+        padding-top: 50px;
+        margin-right: 100px;
+        h1{
+            font-size: 80px;
+            font-weight: 700;
+            line-height: 90px;
+        }
+
+        p{
+            font-size: 23px;
+            color: darkgray;
+            padding-bottom: 40px;
+        }
+    }
+
+    .illustration{
+        img{
+
+        }
+    }
+}

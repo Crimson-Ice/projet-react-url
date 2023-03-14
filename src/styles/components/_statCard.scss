@@ -1,0 +1,28 @@
+.statCard-content{
+    background-color: white;
+    width: 363px;
+    height: 280px;
+    border-radius: 10px;
+    padding: 0 30px 30px 30px;
+
+    .container-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        bottom: 45px;
+        height: 90px;
+        width: 90px;
+        background-color: var(--dark-violet);
+        border-radius: 50px;
+    }
+
+    h2{
+        padding-bottom: 15px;
+    }
+
+    p{
+        color: darkgray;
+        font-size: 16px;
+    }
+}

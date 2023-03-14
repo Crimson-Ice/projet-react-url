@@ -1,0 +1,65 @@
+.shortenLink-content{
+    background: var(--dark-violet) url("../../../public/img/bg-shorten-desktop.svg") no-repeat;
+    background-size: cover;
+    height: 165px;
+    width: 1150px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 0 180px;
+    position: relative;
+    bottom: 80px;
+
+    form{
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+    }
+
+    .error{
+        color: red;
+        padding: 5px 85px;
+    }
+
+    .input-error{
+        border: 2px solid red;
+    }
+
+    .input-not-error{
+        border: 0;
+    }
+
+    input[type="text"]{
+        height: 65px;
+        width: 780px;
+        border-radius: 10px;
+        margin-right: 20px;
+        padding-left: 30px;
+
+        &::placeholder{
+            font-family: var(--font-familly);
+            font-size: 18px;
+        }
+
+        &:focus{
+            outline: none;
+        }
+    }
+
+
+    input[type="submit"]{
+        width: 180px;
+        height: 65px;
+        border-radius: 10px;
+        font-size: 20px;
+        color: #fff;
+        background-color: var(--cyan);
+        border: 0;
+        font-weight: 700;
+
+        &:hover{
+            background-color: var(--button-hover);
+            cursor: pointer;
+        }
+    }
+}

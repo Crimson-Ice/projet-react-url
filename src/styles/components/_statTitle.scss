@@ -1,0 +1,23 @@
+.statTitle-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 180px 90px 180px;
+
+    .stat-text{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 520px;
+
+        h1{
+            font-size: 40px;
+        }
+
+        p{
+            color: darkgray;
+            text-align: center;
+            font-size: 18px;
+        }
+    }
+}
